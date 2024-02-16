@@ -20,26 +20,26 @@ export default function About() {
         >
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3">
-                I got my {" "}
-                <span className="font-medium">Computer Science</span> degree in 2019, and ever since, 
-                I've been riding the development wave with full gusto.  
+                <span>I got my </span>
+                <span className="font-medium">Computer Science</span>
+                <span> degree in 2019, and ever since, I've been riding the development wave with full gusto. </span>  
                 <span className="italic">What really lights my coding fire? </span> 
-                The buzz of problem-solving.There's this awesome high when you crack the code to a challenging problem 
-                — it's like finding the perfect piece to complete a puzzle.
+                <span>The buzz of problem-solving.There's this awesome high when you crack the code to a challenging problem 
+                — it's like finding the perfect piece to complete a puzzle.</span>
             </p>
 
             <p>
-                My core stack revolves around{" "}
-                <span className="font-medium">
-                Java, Spring Boot, and SQL
-                </span>
-                . I've also used TypeScript, C#, React, MongoDB, Elasticsearch, and Redis. 
-                The dynamic nature of technology keeps me eager to explore and learn new tools and frameworks.
+                <span>My core stack revolves around </span>
+                <span className="font-medium">Java, Spring Boot, and SQL</span>
+                <span>. I've also used TypeScript, C#, React, MongoDB, Elasticsearch, and Redis. 
+                The dynamic nature of technology keeps me eager to explore and learn new tools and frameworks.</span>
             </p>
 
             <p>
+                <span>
                 Outside the coding realm, I find joy in watching and playing football. Additionally,
                 I have a keen interest in broadening my knowledge horizons and currently indulge in reading finance and self-help books.
+                </span>
             </p>
         </motion.section>
     )
