@@ -32,6 +32,14 @@ export const links = [
   },
 ] as const;
 
+export const introData = {
+  "resume" : "https://exhibit-resume.s3.ap-south-1.amazonaws.com/Vansh_Pathak_Resume.pdf",
+  "github":"https://github.com/coduet",
+  "linkedIn":"https://linkedin.com/in/pathakvansh",
+  "leetcode":"https://leetcode.com/coduet/"
+
+} as const 
+
 export const experiencesData = [
   {
     title: "Senior Software Engineer",
